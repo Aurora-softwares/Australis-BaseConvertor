@@ -1,0 +1,13 @@
+format = 2
+name = "Base Convertor"
+version = "0.1.0"
+type = "exec"
+output = "base-convertor.exec"
+sources = ["src/Program.hy"]
+project_references = []
+
+[package]
+id = "os.australis.base-convertor"
+description = "Minimal Australis executable"
+authors = ["Aurora Softwares"]
+license = "MIT"
