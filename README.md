@@ -5,9 +5,9 @@
 The current source prints `Hello, World!`; it does not convert numeric bases.
 
 `BaseConvertor.hyproj` builds `base-convertor.exec`. The Australis OS aggregate includes
-this project and installs the executable at `/Bin/base-convertor.exec` in the read-only
-HyFS 2 boot image. Run it by its bare name `/Bin/` through the current
-recovery shell's `PATH`, or use `run /Bin/base-convertor.exec`.
+this project and installs the executable at `/System/Bin/base-convertor.exec` in the read-only
+HyFS 2 boot image. Run it by its bare name `/System/Bin/` through the current
+recovery shell's `PATH`, or use `run /System/Bin/base-convertor.exec`.
 
 ## Planned direction
 
